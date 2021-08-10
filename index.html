@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>ДКЭ - создание продуктового интернет-магазина</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Premium Bootstrap 4 Landing Page Template" />
+        <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
+        <meta content="Themesdesign" name="author" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/tiny-slider.css" rel="stylesheet" type="text/css" />
+        <!-- Icon -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" />          
+        <!-- Custom Css -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target="#navbar-navlist" data-bs-offset="20">
+        <!-- Loader Start -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Loader End -->
+
+        <!-- Navbar Start -->
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
+    		<div class="container">
+			    <a class="navbar-brand" href="#">ДКЭ</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="mdi mdi-menu"></span>
+			    </button><!--end button-->
+
+			    <div class="collapse navbar-collapse" id="navbarCollapse">
+			        <ul id="navbar-navlist" class="navbar-nav ms-auto">
+			            <li class="nav-item">
+			                <a class="nav-link active" href="/databases_view">Просмотр баз данных</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="/makeorder">Создать заказ клиента</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="/apply">Создать запрос на поставку</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="/sales_report">Создать отчет по продажам</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="/purchases_report">Создать отчет по закупкам</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="/edit">Редактировать заказ клиента</a>
+			            </li><!--end nav item-->
+			        </ul><!--end navbar nav-->
+			    </div><!--end collapse-->
+		    </div><!--end container-->
+		</nav><!--end navbar-->
+        <!-- Navbar End -->
+
+        <!-- HOME START-->
+        <section class="bg-home  d-table w-100" style="background-image:url('images/home/back_image.png')" id="home">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="title-heading mt-5 pt-4">
+                            <h1 class="heading text-white mb-3">Продуктовый интернет-магазин на Django + SQLite3</h1>
+                            <p class="para-desc text-white-50">MVP от команды участников ДКЭ</p>
+                            <div class="mt-4 pt-2">
+                                <a href="javascript:void(0)" class="btn btn-primary rounded-pill mb-2 me-2">Купить разработку сейчас</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-custom rounded-pill mb-2">Подробнее<i class="mdi mdi-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- HOME END-->
+
+        <!-- About Us Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="about-img">
+                            <img src="images/about01.png" class="img-fluid" alt="">
+                        </div><!--end img-->
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-md-5 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <!-- Start Accordion -->
+                        <div class="faqs mt-4 pt-2">
+                            <div class="accordion" id="accordionExample2" role="tablist" aria-multiselectable="true">                                
+                                <div class="card border-0 rounded-0">
+                                    <div class="card-header p-0" role="tab" id="History">
+                                        <h6 class="card-title position-relative mb-0">
+                                            <a class="text-dark d-block" role="button" data-bs-toggle="collapse" href="#companyhistory" aria-expanded="true" aria-controls="companyhistory">Стэк</a>
+                                        </h6>
+                                    </div>
+                                    <div id="companyhistory" class="collapse show" role="tabpanel" aria-labelledby="History" data-bs-parent="#accordionExample2">
+                                        <p class="mb-2 mt-3 m-2">
+Django, SQLite3, JS
+                                        </p>
+                                    </div>
+                                </div><!--end card-->
+
+                                <div class="card border-0 rounded-0 my-3">
+                                    <div class="card-header p-0" role="tab" id="GoalandVision">
+                                        <h6 class="card-title position-relative mb-0">
+                                            <a class="collapsed text-dark d-block" role="button" data-bs-toggle="collapse" href="#Goal" aria-expanded="false" aria-controls="Goal"> Наши цели от работы</a>
+                                        </h6>
+                                    </div>
+                                    <div id="Goal" class="collapse" role="tabpanel" aria-labelledby="GoalandVision" data-bs-parent="#accordionExample2">
+                                        <p class="mb-2 mt-3 m-2">
+        			Благодаря простому API соединить часть фронтенда с серверной, сделать сайт удобным для конечных пользователей
+                                        </p>
+                                    </div>
+                                </div><!--end card-->
+
+
+                            </div><!--end accordion-->
+                        </div><!--end faqs-->
+                        <!-- End Accordion -->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+
+       
+
+
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Contact -->
+        <script src="js/contact.js"></script>
+        <script src="js/tiny-slider.js"></script>
+        <!-- Main Js -->
+        <script src="js/app.js"></script>
+        
+    </body>
+
+</html>
